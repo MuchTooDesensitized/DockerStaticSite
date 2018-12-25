@@ -1,4 +1,7 @@
 #!/bin/bash
+git add -A
+git commit -m "I love this script."
+git push
 zip -r personal-cv.zip ./*
 docker stop $1
 docker rm $1
